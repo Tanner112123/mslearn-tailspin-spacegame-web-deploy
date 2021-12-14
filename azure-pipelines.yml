@@ -58,8 +58,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
-- publish: '$(Build.ArtifactStagingDirectory)'
-  artifact: drop
+
 =======
 # ASP.NET Core (.NET Framework)
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
